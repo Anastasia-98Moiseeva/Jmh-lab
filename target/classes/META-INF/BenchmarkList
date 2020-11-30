@@ -1,0 +1,4 @@
+JMH S 30 protobuf.ProtobufSerialization S 58 protobuf.generated.ProtobufSerialization_serialize_jmhTest S 9 serialize S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 22 json.JSONSerialization S 50 json.generated.JSONSerialization_serialize_jmhTest S 9 serialize S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 32 protobuf.ProtobufDeserialization S 62 protobuf.generated.ProtobufDeserialization_deserialize_jmhTest S 11 deserialize S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 24 json.JSONDeserialization S 54 json.generated.JSONDeserialization_deserialize_jmhTest S 11 deserialize S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 

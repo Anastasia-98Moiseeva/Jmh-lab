@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+package data;
+
+option java_package = "data";
+option java_outer_classname = "ProtoUser";
+
+message User {
+  required int32 id = 1;
+  required string login = 2;
+  repeated string birthday = 3;
+  repeated string birthplace = 4;
+  repeated string hobbies = 5;
+}

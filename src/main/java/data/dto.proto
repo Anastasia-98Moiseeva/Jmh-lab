@@ -1,0 +1,21 @@
+syntax = "proto2";
+
+package data;
+
+option java_package = "data";
+option java_outer_classname = "ProtoDTO";
+
+message User {
+  required int32 id = 1;
+  required string login = 2;
+  repeated string birthday = 3;
+  repeated string birthplace = 4;
+  repeated string hobbies = 5;
+}
+
+message DTO {
+  required int32 id = 1;
+  required User user = 2;
+  repeated string date = 3;
+  repeated int32 price = 4;
+}
